@@ -17,6 +17,9 @@ func NewFloat64PRNG(seed []byte) *Float64PRNG {
 }
 
 func (f *Float64PRNG) Next() (float64, error) {
+	// Based on
+	// https://cs.opensource.google/go/go/+/refs/tags/go1.19.2:src/math/rand/rand.go;l=179.
+	// See license for Go 1.19.2 in 3P_LICENSES.md.
 	n, err := rand.Int(f.p, big.NewInt(1<<53))
 	if err != nil {
 		return 0, err
