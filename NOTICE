@@ -1,7 +1,7 @@
-This is a list of third party licenses for code used or referenced in this package.
-To be clear, these licenses are not applied to the source code within this package.
+This is a list of third party licenses for code used or referenced within this package.
+These licenses do not necessarily apply to this package. Nothing herein constitutes legal advice.
 
-===== License for Go 1.19.2 (https://cs.opensource.google/go/go/+/refs/tags/go1.19.2:) =====
+===== License for Go 1.19.2 (https://cs.opensource.google/go/go/+/refs/tags/go1.19.2:LICENSE) =====
 
 Copyright (c) 2009 The Go Authors. All rights reserved.
 
